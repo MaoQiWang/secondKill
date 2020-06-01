@@ -15,6 +15,7 @@ public class Test {
     @RequestMapping("test")
     public String test(){
         System.out.println(userService.selectByUsername("debug"));
+
         return "welcome";
     }
 
